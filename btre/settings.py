@@ -129,6 +129,10 @@ STATICFILES_DIRS =[
     os.path.join(BASE_DIR, 'btre/static')
 ]
 
+#media folder settings 
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'  # change folder settings so that all uploaded media comes directly into folder 
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
